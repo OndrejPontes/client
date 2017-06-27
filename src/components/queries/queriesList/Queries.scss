@@ -1,0 +1,71 @@
+.queries-list.const-queries {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.queries-list.const-queries > div > div > button {
+  font-size: 2rem;
+  width: 100%;
+  border-radius: .4rem;
+}
+
+.queries-list.const-queries > div > div {
+  display: inline-block;
+  width: 20%;
+  padding-right: 1rem;
+}
+
+.queries-list.const-queries > div > div:last-child{
+  padding: 0;
+}
+
+.queries-list.elementary-queries {
+  margin-top: 2rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.queries-list.complex-queries {
+  margin-top: 1rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#search {
+  width: 55%;
+  float: right;
+}
+
+#search > input{
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.queries-list > .row {
+  margin-bottom: 2rem;
+}
+
+.queries-list > div:last-child{
+  overflow: auto;
+}
+
+.queries-list > div:last-child > div{
+  float: left;
+  padding: 0 1rem 1rem 0;
+
+}
+.queries-list > div:last-child > div > button{
+  font-size: 2rem;
+}
+
+.elementary-queries, .complex-queries {
+  height: 33rem;
+  clear: both;
+}
+
+.elementary-queries > div:last-child, .complex-queries > div:last-child {
+  overflow-y: auto;
+  max-height: 25rem;
+}

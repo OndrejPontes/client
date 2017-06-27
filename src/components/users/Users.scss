@@ -1,0 +1,35 @@
+.users {
+  margin-top: 2rem;
+  font-size: 2rem;
+  border: 1px solid;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 2rem 2rem 2rem 2rem;
+  height: 79.8rem;
+  overflow-y: auto;
+}
+
+.users > div {
+  border-bottom: 1px solid;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.users > div:last-child {
+  border-bottom: none;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.users > div > div:first-child {
+  float: left;
+}
+
+.users > div > div:last-child {
+  float: right;
+}

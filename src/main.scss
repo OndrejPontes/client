@@ -1,0 +1,9 @@
+@import "./components/header/Header";
+@import "./components/queries/queriesList/Queries";
+@import "./components/keywords/Keywords";
+@import "./components/shared/Modal";
+@import "./components/queries/queryBuilder/Builder";
+@import "./components/users/Users";
+@import "./components/shared/NotAvailable";
+@import "~react-s-alert/dist/s-alert-default";
+@import "~react-s-alert/dist/s-alert-css-effects/jelly";

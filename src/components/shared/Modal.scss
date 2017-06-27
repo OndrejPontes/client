@@ -1,0 +1,39 @@
+#modal {
+  opacity: 1;
+  display: block;
+  background-color: rgba(0,0,0,.3);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow: hidden;
+  outline: 0;
+  transition: opacity .15s linear;
+}
+
+#modal > div {
+  margin-top: 20%;
+}
+
+#modal > div > div {
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+
+#modal-header{
+  display: block;
+}
+
+#modal > div > div > div > h5 {
+  font-size: 2rem;
+  float: left;
+}
+
+#modal > div > div > div > button {
+  font-size: 2rem;
+}

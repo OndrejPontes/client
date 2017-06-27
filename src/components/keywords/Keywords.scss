@@ -1,0 +1,97 @@
+.header {
+  font-size: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.header > div {
+  float: left;
+}
+
+.header > div:nth-child(1) {
+  width: 26.2%;
+  margin-left: 1.8%;
+}
+
+.header > div:nth-child(2) {
+  width: 32%;
+  margin-right: 8%;
+  text-align: center;
+}
+
+.header > div:nth-child(3) {
+  width: 32%;
+}
+
+.header > div:nth-child(3) > input {
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.keywords {
+  margin-top: 2rem;
+  border: 1px solid #cccccc;
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.keywords > div {
+  overflow-y: auto;
+  height: 69.8rem;
+}
+
+.keywords > div > div {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.name {
+  width: 20%;
+  float: left;
+  font-weight: bold;
+}
+
+.value {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.buttons {
+  width: 30%;
+  float: left;
+}
+
+.buttons > button {
+  width: 49%;
+  margin-right: 2%;
+  font-size: 2rem;
+}
+
+.buttons > button:last-child {
+  width: 49%;
+  margin-right: 0;
+}
+
+.editBody {
+  padding: 2rem;
+}
+
+.editBody > div:first-child {
+  padding-bottom: 1rem;
+}
+
+.editBody > div > input{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.leftLabel {
+  float: left;
+  width: 20%;
+}

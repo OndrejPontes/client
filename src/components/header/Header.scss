@@ -1,0 +1,58 @@
+#header {
+  padding: 3rem 1rem;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+#brand {
+  font-size: 3rem;
+  padding-right: 3rem;
+}
+
+#userName {
+  color: #8e8e8e;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  font-weight: normal;
+  float: left;
+  padding-top: .99rem;
+}
+
+.link.active, .link.active:hover, .link.active:focus {
+  color: #fff;
+}
+
+#navbarSupportedContent {
+  padding-right: 0;
+}
+
+.link, .link:hover, .link:focus {
+  color: #8e8e8e;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: .6rem;
+  margin-right: 1rem;
+}
+
+#login {
+  font-size: 2rem;
+}
+
+#login:focus {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+#logout {
+  font-size: 2rem;
+}
+
+#logout:focus {
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.s-alert-box-inner {
+  font-size: 2rem;
+}
